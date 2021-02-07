@@ -41,6 +41,9 @@ body {
 .nav-icon {
   font-size: 1.5rem;
 }
+.nav-icon .fas.fa-bars {
+  visibility: hidden;
+}
 .cart-btn {
   position: relative;
   cursor: pointer;
@@ -85,10 +88,15 @@ body {
   border: 1px solid var(--primaryColor);
   transition: var(--mainTransition);
   cursor: pointer;
+  font-family: "Lato", sans-serif;
 }
 .banner-btn:hover {
   background: transparent;
   color: var(--primaryColor);
+}
+.banner a {
+  text-decoration: none;
+  color: black;
 }
 /* --------------- End of Hero ---------------- */
 /* --------------- Products ---------------- */
